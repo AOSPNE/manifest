@@ -130,7 +130,7 @@
   <project path="kernel/configs" name="AOSPA/android_kernel_configs" remote="aospa" />
 
   <!-- Manifest -->
-  <project path="manifest" name="AOSPA/manifest" remote="aospa" />
+  <project path="manifest" name="AOSPNE/manifest" remote="github" revision="ruby" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -232,7 +232,7 @@
   <!-- Vendor (AOSPA) -->
   <project path="vendor/google/gms" name="ThankYouMario/proprietary_vendor_google_gms" remote="bitbucket" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" />
-  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" >
+  <project path="vendor/pa" name="AOSPNE/android_vendor_pa" remote="github" revision="ruby" >
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
